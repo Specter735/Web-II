@@ -8,7 +8,6 @@ $penulis = '';
 $penerbit = '';
 $tahun = '';
 
-// Mode Edit: Ambil data buku berdasarkan ID
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
     $result = getBukuById($id);
@@ -21,7 +20,6 @@ if (isset($_GET['id'])) {
     }
 }
 
-// Proses Simpan (Insert atau Update)
 if (isset($_POST['simpan'])) {
     $judul = $_POST['judul'];
     $penulis = $_POST['penulis'];
