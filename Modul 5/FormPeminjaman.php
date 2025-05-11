@@ -8,7 +8,6 @@ $buku_id = '';
 $tgl_pinjam = '';
 $tgl_kembali = '';
 
-// Mode Edit
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
     $result = getPeminjamanById($id);
@@ -21,7 +20,6 @@ if (isset($_GET['id'])) {
     }
 }
 
-// Proses Simpan (Insert atau Update)
 if (isset($_POST['simpan'])) {
     $member_id = $_POST['member'];
     $buku_id = $_POST['buku'];
@@ -38,7 +36,6 @@ if (isset($_POST['simpan'])) {
     exit;
 }
 
-// Ambil semua data untuk dropdown
 $dataMember = getAllMember();
 $dataBuku = getAllBuku();
 ?>
