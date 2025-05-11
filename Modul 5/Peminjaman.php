@@ -2,7 +2,6 @@
 require 'Koneksi.php';
 require 'Model.php';
 
-// Jika ada parameter hapus
 if (isset($_GET['hapus'])) {
     $id = $_GET['hapus'];
     deletePeminjaman($id);
