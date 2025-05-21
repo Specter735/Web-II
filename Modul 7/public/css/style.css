@@ -1,0 +1,71 @@
+/* Login nih */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.input-form {
+  width: 93%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 15px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2563eb;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #1e40af;
+}
+
+.link-text {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.link-text a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.error-message {
+  background-color: #ffe0e0;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ff8c8c;
+  border-radius: 5px;
+  color: #cc0000;
+}
